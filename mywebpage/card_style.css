@@ -74,7 +74,7 @@ main {
     border-top: 1px solid #FFFFFF;
 }
 .main_nav {
-    width: 45%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
