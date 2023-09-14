@@ -62,43 +62,10 @@ header {
 
 main {
   margin-top: 250px;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  bottom:0;
-  left:0;
-  height: 82px;
-  width: 100%;
-  background-color: #2a2f2e;
-  padding-top: 10px;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: -18px;
-}
-
-.footer_info {
-  margin-right: 21px;
-  color: #f5f5f5;
-  line-height: 25px;
-  font-family: 'Bitter',serif;
-  font-size: 16px;
-  text-transform: uppercase;
-  text-align: right;}
-}
-
-
-.main_nav {
-  margin-top: 250px;
-  border-top: 1px solid #FFFFFF;
-  background-color: #2a2f2e;
-}
 
 .main__nav {
     width: 100%;
@@ -112,6 +79,8 @@ footer {
     margin-right: auto;
     justify-content: space-between;
     align-items: center;
+  border-top: 1px solid #FFFFFF;
+  background-color: #2a2f2e;
 }
 
 .main_nav>input {
@@ -121,7 +90,7 @@ footer {
 .tab-nav-1-container,
 .tab-nav-2-container,
 .tab-nav-3-container{
-    width: 270px;
+    width: 264px;
     height: 64px;
     font-weight: bolder;
     font-family: 'Open sans',
@@ -156,11 +125,11 @@ footer {
 
 .tabs {
     clear: both;
-    perspective: 1200px;
+    perspective: 600px;
 }
 
 .tabs>div {
-    width: 1300px;
+    width: 1060px;
     margin-left: -220px;
     margin-top: 0px;
     position: sticky;
@@ -182,9 +151,9 @@ footer {
     z-index: 1;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1060px) {
     .main_nav {
-        width: 1200px;
+        width: 400px;
     }
 
     .main_nav>label {
@@ -193,7 +162,7 @@ footer {
 
     .tabs>div {
         padding: 0;
-        width: 1200px;
+        width: 400px;
         border: none;
         opacity: 1;
         position: relative;
@@ -254,4 +223,34 @@ footer {
   justify-content: center;
   margin-left: -5%;
   padding-bottom: 15px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  bottom:0;
+  left:0;
+  height: 82px;
+  width: 100%;
+  background-color: #2a2f2e;
+  padding-top: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: -18px;
+}
+
+.footer_info {
+  margin-right: 21px;
+  color: #f5f5f5;
+  line-height: 25px;
+  font-family: 'Bitter',serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: right;}
 }
